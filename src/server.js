@@ -9,7 +9,7 @@ const server = createServer(app);
 
 const PORT = config.port || 8080;
 server.listen(PORT, () => {
-  console.log(`Servidor corriendo en http://localhost:${PORT}`);
+  console.log(`Servidor corriendo en produccion en el puerto ${PORT}`);
 });
 
 export default server;
